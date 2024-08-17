@@ -17,7 +17,7 @@ python3 app.py
 This command will monitor the current directory.
 
 # How It Works
--> Import Libraries: Imports necessary modules including sys, time, hashlib, logging, and watchdog.\n
+-> Import Libraries: Imports necessary modules including sys, time, hashlib, logging, and watchdog.<br>
 -> Configuration: Sets up logging with a specific format to display timestamps, process IDs, log levels, and messages.
 -> Event Handling: Custom event handler logs file changes.
 -> Observer Setup: Initializes and starts a watchdog observer to watch for file system events in the specified directory.
