@@ -9,11 +9,11 @@ This Python script monitors file changes in a specified directory using the watc
 # Installation
 Ensure you have Python 3 installed. You need to install the watchdog library if it’s not already available. You can install it using pip:
 
-# pip install watchdog
-# python3 app.py /path/to/directory
+pip install watchdog
+python3 app.py /path/to/directory
 
 If you do not provide a path, use:
-# python3 app.py
+python3 app.py
 This command will monitor the current directory.
 
 # How It Works
