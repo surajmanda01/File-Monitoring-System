@@ -7,13 +7,14 @@ This Python script monitors file changes in a specified directory using the watc
 2. Flexible Path Specification: Allows the user to specify the directory to monitor via command-line arguments, with a default to the current directory.<br>
 
 # Installation
-Ensure you have Python 3 installed. You need to install the watchdog library if it’s not already available.<br> You can install it using pip:<br>
+Ensure you have Python 3 installed. You need to install the watchdog library if it’s not already available.<br> 
 
-pip install watchdog<br>
-python3 app.py /path/to/directory<br>
+You can install it using pip:<br>
+>>>pip install watchdog<br>
+>>>python3 app.py /path/to/directory<br>
 
 If you do not provide a path, use:<br>
-python3 app.py<br>
+>>>python3 app.py<br>
 This command will monitor the current directory.<br>
 
 # How It Works
